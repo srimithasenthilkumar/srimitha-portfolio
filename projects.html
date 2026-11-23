@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Srimitha Senthilkumar</title>
+  <meta name="description" content="Public GitHub projects by Srimitha Senthilkumar, loaded live from GitHub." />
+  <meta name="theme-color" content="#0a0a0c" />
+  <meta property="og:title" content="Projects | Srimitha Senthilkumar" />
+  <meta property="og:description" content="Public GitHub projects by Srimitha Senthilkumar, loaded live from GitHub." />
+  <meta property="og:image" content="assets/images/srimitha-profile.jpg" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="projects">
+<div class="page">
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div id="nav-root"></div>
+  <main>
+    <section class="container page-head">
+      <div class="page-head-grid">
+        <div class="art"><img src="assets/images/illustrations/projects.webp" alt="Illustration of a young woman developer coding at a large monitor" /></div>
+        <div class="copy">
+          <span class="badge"><i data-icon="folder"></i> Things I've Built</span>
+          <h1 class="page-title">My Projects</h1>
+          <span class="underline" aria-hidden="true"></span>
+          <h2 class="page-sub">Live from my public GitHub</h2>
+          <p class="page-desc">Full-stack, backend, mobile and data work are listed first.</p>
+          <p class="sync"><i></i>Synced with GitHub API</p>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div id="projects-root" aria-live="polite"></div>
+      <div class="center">
+        <a class="btn btn-primary" href="https://github.com/srimithasenthilkumar" target="_blank" rel="noopener noreferrer"><i data-icon="github"></i> View All Projects on GitHub <i data-icon="arrowUpRight"></i></a>
+      </div>
+    </section>
+  </main>
+  <div id="footer-root"></div>
+</div>
+<script src="js/layout.js"></script>
+<script src="js/github.js"></script>
+</body>
+</html>
